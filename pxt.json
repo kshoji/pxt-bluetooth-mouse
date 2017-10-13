@@ -1,0 +1,24 @@
+{
+    "name": "bluetooth-mouse",
+    "version": "0.0.0",
+    "description": "A Bluetooth Mouse service",
+    "license": "MIT",
+    "dependencies": {
+        "core": "*",
+        "bluetooth": "*"
+    },
+    "files": [
+        "README.md",
+        "bluetooth.ts",
+        "BluetoothMouseService.cpp",
+        "BluetoothMouseService.h",
+        "USBHID_Types.h",
+        "mouse.cpp",
+        "shims.d.ts",
+        "enums.d.ts"
+    ],
+    "testFiles": [
+        "tests.ts"
+    ],
+    "public": true
+}
