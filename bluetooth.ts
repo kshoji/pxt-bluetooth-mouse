@@ -24,7 +24,7 @@ namespace bluetooth {
     /**
      * Sets a Mouse button
      */
-    //% blockId="bluetooth_mouse_set_speed"
+    //% blockId="bluetooth_mouse_set_button"
     //% block="mouse|set button %button to %state"
     //% parts="bluetooth"
     //% shim=bluetooth::mouseButton
